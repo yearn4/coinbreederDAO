@@ -1,6 +1,6 @@
 Priorities
-- Submit contracts audits - in progress
-- Fix potential issues 
+- Submit contracts audits - completed
+- Fix potential issues - in progress
 - Deploy BREE on mainnet
 - Deploy a swap sBREE <> BREE contract
 - Deploy off-chain oracle to fetch governance asset values for determining farming rates
@@ -40,3 +40,4 @@ Token swap testing review AUG 23 2PM UTC - DAN
 Governance contract discussions 3 AUG 24 2PM UTC - DAN
 Website improvement zvc 3 AUG 24 1pm - David
 Governance contract discussions 4 (AUG 26) 2PM UTC - DAN
+Audit review August 28 14:00 UTC - Eugene
