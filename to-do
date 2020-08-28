@@ -3,10 +3,8 @@ Priorities
 - Fix potential issues - in progress
 - Deploy BREE on mainnet
 - Deploy a swap sBREE <> BREE contract
-- Deploy off-chain oracle to fetch governance asset values for determining farming rates
-- Allocate initial liquidity (avg. weighted price of sBREE until the swap date) & burn leftover tokens
+- Launch liquidity provider rewards campaign
 - Integrate BREE_STAKE_FARM contract on the dashboard
-- Create a video (landing page) - completed
 - Initiate marketing plans
 
 
@@ -32,7 +30,7 @@ DANIEL
 - created a meme competition for the community (https://medium.com/@coinbreeder/bree-twitter-memes-competition-991716bf18c5)
 - article on staking & farming written (https://medium.com/@coinbreeder/guide-staking-farming-bree-d47a66738a76)
 - finalize initial supply - completed
-- write an article on how to use the token swap dapp
+- write an article on how to use the token swap dapp - completed, needs to be published.
 - litepaper update - completed
 
 NOTES
