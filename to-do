@@ -14,6 +14,7 @@ DAVID
 - prototypes for BREE mobile wallet
 
 EUGENE
+- fix BREE.sol and BREE_STAKE_FARM.sol - in progress
 - sBREE <> BREE token swap contract - completed requires testing
 - token swap directory updates - completed
 - governance smart contract
@@ -39,3 +40,4 @@ Governance contract discussions 3 AUG 24 2PM UTC - DAN
 Website improvement zvc 3 AUG 24 1pm - David
 Governance contract discussions 4 (AUG 26) 2PM UTC - DAN
 Audit review August 28 14:00 UTC - Eugene
+ - Fix as outlined by SEPT 1, Test and review 2-3 - all
