@@ -15,7 +15,7 @@ DAVID
 - APY calculator for farming (on the farming dashboard) - in progress
 
 EUGENE
-- fix BREE.sol and BREE_STAKE_FARM.sol - in progress
+- fix BREE.sol and BREE_STAKE_FARM.sol - completed requires testing
 - sBREE <> BREE token swap contract - completed requires testing
 - token swap directory updates - completed
 - governance smart contract
