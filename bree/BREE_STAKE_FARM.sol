@@ -1,4 +1,4 @@
-pragma solidity ^0.6.0; import 
+// SPDX-License-Identifier: UNLICENSED pragma solidity ^0.6.0; import 
 "./Owned.sol"; import "./BREE.sol"; import "./ERC20contract.sol"; import 
 "./SafeMath.sol"; contract BREE_STAKE_FARM is Owned{
     
@@ -7,6 +7,7 @@ pragma solidity ^0.6.0; import
     uint256 public yieldCollectionFee = 0.01 ether;
     uint256 public stakingPeriod = 30 days;
     uint256 public stakeClaimFee = 0.001 ether;
+    uint256 public minStakeLimit = 500; //500 BREE
     uint256 public totalYield;
     uint256 public totalRewards;
     
@@ -48,9 +49,9 @@ pragma solidity ^0.6.0; import
     event TokensClaimed(address claimer, uint256 stakedTokens);
     event RewardClaimed(address claimer, uint256 reward);
     
-    modifier isWhitelisted(address _account){
-        require(users[_account][address(bree)].whitelisted, "user is not 
-whitelisted");
+    modifier validStake(uint256 stakeAmount){
+        require(stakeAmount >= minStakeLimit, "stake amount should be 
+equal/greater than min stake limit");
         _;
     }
     
@@ -192,7 +193,7 @@ FUNCTIONS#######################################################################
     // @param _amount amount of tokens to deposit
     // 
 ------------------------------------------------------------------------
-    function STAKE(uint256 _amount) external isWhitelisted(msg.sender) {
+    function STAKE(uint256 _amount) external validStake(_amount) {
         // add new stake
         _newDeposit(address(bree), _amount);
         
@@ -492,16 +493,6 @@ _unixLastStakedTime){
     
     // 
 ------------------------------------------------------------------------
-    // Query to get if user is whitelisted for staking or not
-    // 
-------------------------------------------------------------------------
-    function isUserWhitelisted(address _user) external view returns(bool 
-_result){
-        return users[_user][address(bree)].whitelisted;
-    }
-    
-    // 
-------------------------------------------------------------------------
     // Query to get total earned rewards from stake
     // 
 ------------------------------------------------------------------------
@@ -579,14 +570,14 @@ onlyOwner{
     
     // 
 ------------------------------------------------------------------------
-    // Add accounts to the white list
-    // @param _account the address of the account to be added to the 
-whitelist
+    // Change the min stake limit
+    // @param _minStakeLimit minimum stake limit value
     // @required only callable by owner
     // 
 ------------------------------------------------------------------------
-    function whiteList(address _account) external onlyOwner{
-       users[_account][address(bree)].whitelisted = true;
+    function setMinStakeLimit(uint256 _minStakeLimit) external 
+onlyOwner{
+       minStakeLimit = _minStakeLimit;
     }
     
     // 
