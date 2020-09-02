@@ -1,6 +1,6 @@
 Priorities
 - Submit contracts audits - completed
-- Fix potential issues - in progress
+- Fix potential issues - completed
 - Deploy BREE on mainnet
 - Deploy a swap sBREE <> BREE contract
 - Launch liquidity provider rewards campaign
@@ -44,3 +44,4 @@ Audit review August 28 14:00 UTC - Eugene
  - Fix as outlined by SEPT 1, Test and review 2-3 - all
 Governance contract oracle solution provider meeting SEPT 2 8pm PT - Eugene
  - V.W.P across all exchanges, sponsoring nodes (monthly), continue integration discussions on TG.
+Final review and testing phase begins SEPT 3 8AM UTC EUG
