@@ -1,6 +1,10 @@
-// SPDX-License-Identifier: UNLICENSED pragma solidity ^0.6.0; import 
-"./Owned.sol"; import "./BREE.sol"; import "./ERC20contract.sol"; import 
-"./SafeMath.sol"; contract BREE_STAKE_FARM is Owned{
+pragma solidity ^0.6.0; 
+import "./Owned.sol"; 
+import "./BREE.sol"; 
+import "./ERC20contract.sol"; 
+import "./SafeMath.sol"; 
+
+contract BREE_STAKE_FARM is Owned{
     
     using SafeMath for uint256;
     
