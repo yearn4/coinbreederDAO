@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: UNLICENSED
+
 pragma solidity ^0.6.0;
 
 import "./Owned.sol";
@@ -13,7 +13,7 @@ contract BREE_STAKE_FARM is Owned{
     uint256 public yieldCollectionFee = 0.01 ether;
     uint256 public stakingPeriod = 30 days;
     uint256 public stakeClaimFee = 0.001 ether;
-    uint256 public minStakeLimit = 500; //500 BREE
+    uint256 public minStakeLimit = 500 * 10 **(18); //500 BREE
     uint256 public totalYield;
     uint256 public totalRewards;
     
