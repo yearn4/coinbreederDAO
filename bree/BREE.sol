@@ -1,3 +1,4 @@
+
 pragma solidity ^0.6.0;
 
 // ----------------------------------------------------------------------------
@@ -42,7 +43,7 @@ contract Token is ERC20Interface, Owned {
     // Set the STAKE_FARMING_CONTRACT
     // @required only owner
     // ------------------------------------------------------------------------
-    function setStakeFarmingContract(address _address) external onlyOwner{
+    function SetStakeFarmingContract(address _address) external onlyOwner{
         require(_address != address(0), "Invalid address");
         stakeFarmingContract = _address;
     }
@@ -54,7 +55,7 @@ contract Token is ERC20Interface, Owned {
     // @params _beneficiary tokens will be sent to _beneficiary
     // @required only owner OR stakeFarmingContract
     // ------------------------------------------------------------------------
-    function mintTokens(uint256 _amount, address _beneficiary) public returns(bool){
+    function MintTokens(uint256 _amount, address _beneficiary) public returns(bool){
         require(msg.sender == stakeFarmingContract);
         require(_beneficiary != address(0), "Invalid address");
         require(_totalSupply.add(_amount) <= maxCapSupply, "exceeds max cap supply 10 million");
@@ -71,7 +72,7 @@ contract Token is ERC20Interface, Owned {
     // Burn the `_amount` amount of tokens from the calling `account`
     // @params _amount the amount of tokens to burn
     // ------------------------------------------------------------------------
-    function burnTokens(uint256 _amount) external {
+    function BurnTokens(uint256 _amount) external {
         _burn(_amount, msg.sender);
     }
 
