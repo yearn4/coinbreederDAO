@@ -1,11 +1,11 @@
 Priorities
 - Submit contracts audits - completed
 - Fix potential issues - completed
-- Deploy BREE on mainnet
-- Deploy a swap sBREE <> BREE contract
-- Launch liquidity provider rewards campaign
-- Integrate BREE_STAKE_FARM contract on the dashboard
-- Initiate marketing plans
+- Deploy BREE on mainnet - completed
+- Deploy a swap sBREE <> BREE contract - completed
+- Launch liquidity provider rewards campaign - in progress
+- Integrate BREE_STAKE_FARM contract on the dashboard - in progress
+- Initiate marketing plans - in progress
 
 
 DAVID
@@ -15,8 +15,8 @@ DAVID
 - APY calculator for farming (on the farming dashboard) - in progress
 
 EUGENE
-- fix BREE.sol and BREE_STAKE_FARM.sol - completed requires testing
-- sBREE <> BREE token swap contract - completed requires testing
+- fix BREE.sol and BREE_STAKE_FARM.sol - completed
+- sBREE <> BREE token swap contract - completed
 - token swap directory updates - completed
 - governance smart contract
 - oracle solution for determining fees at fixed USD prices of BREE
@@ -45,3 +45,4 @@ Audit review August 28 14:00 UTC - Eugene
 Governance contract oracle solution provider meeting SEPT 2 8pm PT - Eugene
  - V.W.P across all exchanges, sponsoring nodes (monthly), continue integration discussions on TG.
 Final review and testing phase begins SEPT 3 8AM UTC EUG
+Governance contract discussions 5 SEPT 6 8AM UTC - Eugene
