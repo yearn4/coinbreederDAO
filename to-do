@@ -3,8 +3,9 @@ Priorities
 - Fix potential issues - completed
 - Deploy BREE on mainnet - completed
 - Deploy a swap sBREE <> BREE contract - completed
-- Launch liquidity provider rewards campaign - in progress
+- Launch liquidity provider rewards campaign - completed
 - Integrate BREE_STAKE_FARM contract on the dashboard - in progress
+- Add LP token for farming on the dashboard (for david)
 - Initiate marketing plans - in progress
 
 
@@ -34,6 +35,9 @@ DANIEL
 - finalize initial supply - completed
 - write an article on how to use the token swap dapp - completed, needs to be published.
 - litepaper update - completed
+- write an article on how to use etherscan for the token swap - completed
+- write an article on how to use etherscan for staking & farming - completed
+- write an article on the liquidity rewards campaign - completed
 
 NOTES
 Token swap testing review AUG 23 2PM UTC - DAN
