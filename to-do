@@ -19,9 +19,9 @@ EUGENE
 - fix BREE.sol and BREE_STAKE_FARM.sol - completed
 - sBREE <> BREE token swap contract - completed
 - token swap directory updates - completed
-- governance smart contract
-- oracle solution for determining fees at fixed USD prices of BREE
-- trust score token
+- governance smart contract - in progress
+- oracle solution for determining fees at fixed USD prices of BREE - in progress
+- trust score token - in progress (not a token anymore it will be native data on gov contract)
 - initiate research on cross-chain tokens
 - set up repo for governance
 
