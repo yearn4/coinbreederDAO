@@ -19,11 +19,13 @@ EUGENE
 - fix BREE.sol and BREE_STAKE_FARM.sol - completed
 - sBREE <> BREE token swap contract - completed
 - token swap directory updates - completed
+- token vesting contract - completed
 - governance smart contract - in progress
 - oracle solution for determining fees at fixed USD prices of BREE - in progress
 - trust score token - in progress (not a token anymore it will be native data on gov contract)
 - initiate research on cross-chain tokens
 - set up repo for governance
+
 
 DANIEL
 - create a forum for governance discussions - completed (https://forum.coinbreeder.com)
@@ -50,3 +52,4 @@ Governance contract oracle solution provider meeting SEPT 2 8pm PT - Eugene
  - V.W.P across all exchanges, sponsoring nodes (monthly), continue integration discussions on TG.
 Final review and testing phase begins SEPT 3 8AM UTC EUG
 Governance contract discussions 5 SEPT 6 8AM UTC - Eugene
+Governance contract discussions 6 SPET 9 2PM UTC - Eugene
