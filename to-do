@@ -20,6 +20,7 @@ EUGENE
 - sBREE <> BREE token swap contract - completed
 - token swap directory updates - completed
 - token vesting contract - completed
+- staking pools - in progress
 - governance smart contract - in progress
 - oracle solution for determining fees at fixed USD prices of BREE - in progress
 - trust score token - in progress (not a token anymore it will be native data on gov contract)
