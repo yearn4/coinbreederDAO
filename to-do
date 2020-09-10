@@ -5,7 +5,7 @@ Priorities
 - Deploy a swap sBREE <> BREE contract - completed
 - Launch liquidity provider rewards campaign - completed
 - Integrate BREE_STAKE_FARM contract on the dashboard - in progress
-- Add LP token for farming on the dashboard (for david)
+- Add LP token for farming on the dashboard (for david)-completed
 - Initiate marketing plans - in progress
 
 
@@ -13,7 +13,8 @@ DAVID
 - improved website design - completed
 - token swap dashboard needed - completed
 - prototypes for BREE mobile wallet - in progress
-- APY calculator for farming (on the farming dashboard) - in progress
+- APY calculator for farming (on the farming dashboard) - omitted;unnecessary with query function
+- multiwallet connection on dashboard - completed; requires review
 
 EUGENE
 - fix BREE.sol and BREE_STAKE_FARM.sol - completed
