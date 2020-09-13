@@ -21,7 +21,7 @@ EUGENE
 - sBREE <> BREE token swap contract - completed
 - token swap directory updates - completed
 - token vesting contract - completed
-- staking pools - in progress
+- staking pools - contracts need testing
 - governance smart contract - in progress
 - oracle solution for determining fees at fixed USD prices of BREE - in progress
 - trust score token - in progress (not a token anymore it will be native data on gov contract)
@@ -57,3 +57,4 @@ Governance contract discussions 5 SEPT 6 8AM UTC - Eugene
 Governance contract discussions 6 SPET 9 2PM UTC - Eugene
 Governance contract review September 14-16 - all
 Mobile wallet prototypes review 14 september - Dav, Dan
+Test staking pool contracts on ropsten SPET 14 - Eugene
