@@ -15,6 +15,8 @@ DAVID
 - prototypes for BREE mobile wallet - in progress
 - APY calculator for farming (on the farming dashboard) - omitted;unnecessary with query function
 - multiwallet connection on dashboard - completed
+- dashboard improvements and fixes - completed
+(hide approve and stake button if active, hide approve button if active for farming, data refresh buttons, add link & uni, connect wallet button on farming page fixed)
 
 EUGENE
 - fix BREE.sol and BREE_STAKE_FARM.sol - completed
